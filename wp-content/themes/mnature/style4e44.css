@@ -5095,8 +5095,12 @@ li a {
 }
 
 #masthead .top_header_row a {
-    color: #fff;
+    color: #4387f6;
     padding: 10px 20px;
+}
+
+#masthead .top_header_row a:nth-of-type(2) {
+   display: none;
 }
 
 a.book_btn {

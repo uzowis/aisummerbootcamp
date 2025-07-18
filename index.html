@@ -175,11 +175,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #masthead .top_header_row {    text-align: right;}
     .top_header_row .search-form {display: inline-block;position:relative;}
     .top_header_row .search-form .search-field {padding: 0px 10px;background-color: #2b68cb;color:white;border:none;border-radius:5px;    font-family: droid;
-    font-size: 14px;
+    font-size: 14px; display: none;
     padding: 3px 10px;}
     .top_header_row .search-form .search-field::placeholder {color:white;}
     .top_header_row .search-form .search-submit { font-size: 0;
     background: url(./wp-content/uploads/2019/04/search.png);
+	display: none;
     background-repeat: no-repeat;
     background-color: #2b68cb;
     background-size: 25px;
@@ -203,7 +204,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 #site-navigation.main-navigation .sub-menu > li > a:focus {background:white;}
 #masthead .top_header_row .cart-contents {padding-top: 5px;}
 .cart-contents:after {
-    content: url(./wp-content/themes/mnature/img/basket.png);
+    content: url();
         position: relative;
     top: 4px;
 }
@@ -494,17 +495,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="site-branding">
 	<div class="site-branding_row">
 		<div class="top_header_row"> 
-		 <form role="search" method="get" class="search-form" action="https://aisummerbootcamp.vercel.app/">
+		<form role="search" method="get" class="search-form" action="https://aisummerbootcamp.vercel.app/">
 				<label>
 					<span class="screen-reader-text">Search for:</span>
 					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
 				</label>
 				<input type="submit" class="search-submit" value="Search" />
 			</form>		
-		<a href="https://aisummerbootcamp.vercel.app/my-account/?form=login">Login</a><a href="https://aisummerbootcamp.vercel.app/my-account/?form=register">Register</a>		
+		<a >Login</a><a>Register</a>		
 
-			        <!--<a class="menu-item cart-contents" href="https://aisummerbootcamp.vercel.app/basket/" title="My Basket">Basket
-	            </a>-->
+			        <a class="menu-item cart-contents" title="My Basket">Basket
+	            </a>
         		</div>  
 					<div class="site-logo"><a href="https://aisummerbootcamp.vercel.app/" class="custom-logo-link" rel="home"><img width="338" height="72" src="./wp-content/uploads/2019/03/mnslogo.png" class="custom-logo" alt="Mother Nature Science" decoding="async" srcset="https://aisummerbootcamp.vercel.app/wp-content/uploads/2019/03/mnslogo.png 338w, https://aisummerbootcamp.vercel.app/wp-content/uploads/2019/03/mnslogo-300x64.png 300w" sizes="(max-width: 338px) 100vw, 338px" /></a></div>
 				
